@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 // components
 // import Hello from "./components/Hello";
 // import Message from "./components/Message";
@@ -8,12 +8,13 @@ import "./App.css";
 // import FunctionEvent from "./components/FunctionEvent";
 // import ClassEvent from "./components/ClassEvent";
 // import FunctionalCounter from "./components/FunctionalCounter";
-import ConditionalComponent from "./components/ConditionalComponent";
+// import ConditionalComponent from "./components/ConditionalComponent";
+import Products from "./components/Products";
 
 function App() {
     return (
         <div className="App">
-            <ConditionalComponent />
+            <Products />
         </div>
     );
 }
