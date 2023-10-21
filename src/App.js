@@ -14,12 +14,15 @@
 // import Todo from "./components/Todo";
 // import InlineComponent from "./components/InlineComponent";
 // import StyleSheetComponent from "./components/StyleSheetComponent";
-import ModuleComponent from "./components/ModuleComponent";
+// import ModuleComponent from "./components/ModuleComponent";
+// import FragmentComponent from "./components/FragmentComponent";
+// import Table from "./components/Table";
+import Parent from "./components/Parent";
 
 function App() {
     return (
         <div className="App">
-            <ModuleComponent />
+            <Parent />
         </div>
     );
 }
