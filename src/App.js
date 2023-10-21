@@ -11,12 +11,15 @@
 // import ConditionalComponent from "./components/ConditionalComponent";
 // import Products from "./components/Products";
 // import Form from "./components/Form";
-import Todo from "./components/Todo";
+// import Todo from "./components/Todo";
+// import InlineComponent from "./components/InlineComponent";
+// import StyleSheetComponent from "./components/StyleSheetComponent";
+import ModuleComponent from "./components/ModuleComponent";
 
 function App() {
     return (
         <div className="App">
-            <Todo />
+            <ModuleComponent />
         </div>
     );
 }
